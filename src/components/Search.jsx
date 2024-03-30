@@ -20,6 +20,7 @@ const Search = () => {
     return (
         <div>
             <InputText placeholder="Search Anything" className="my-3" onChange={handleChange} />
+            <InputText placeholder='hello' />
         </div>
     );
 };
