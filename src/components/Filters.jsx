@@ -1,7 +1,7 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { useForm, Controller } from 'react-hook-form';
-import { MultiSelect } from 'primereact/multiselect';
-import { Button } from 'primereact/button';
+import { MultiSelect } from './multiselect';
+import { Button } from './button';
 import { useStudentContext } from "@/context/studentContext";
 
 

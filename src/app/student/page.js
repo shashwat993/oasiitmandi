@@ -1,14 +1,13 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import { InputText } from "primereact/inputtext";
-import { Button } from "primereact/button";
+import { InputText } from "@/components/inputtext";
+import { Button } from "@/components/button";
 import { useRouter } from "next/navigation";
 import { Controller, useForm } from "react-hook-form";
 import { classNames } from "primereact/utils";
 import { Toast } from "primereact/toast";
 import axios from "axios";
 import xml2js from 'xml2js';
-import { Divider } from 'primereact/divider';
 import Student from "@/components/Student";
 import NavBar from "@/components/NavBar";
 

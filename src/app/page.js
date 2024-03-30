@@ -1,11 +1,8 @@
 'use client'
-import Image from "next/image";
-import { Button } from 'primereact/button';
-import axios from 'axios'
+
 import NavBar from "@/components/NavBar";
 import SideBar from "@/components/SideBar";
 import StudentCard from "@/components/Card";
-import { useState, useEffect, useContext } from "react";
 import SkeletonComp from "@/components/Skeleton";
 import { useStudentContext } from "@/context/studentContext";
 

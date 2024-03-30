@@ -1,5 +1,6 @@
 import React from 'react';
-import { InputText } from 'primereact/inputtext';
+// import { InputText } from 'primereact/inputtext';
+import {InputText} from './inputtext'
 import { useStudentContext } from '@/context/studentContext';
 
 const Search = () => {
@@ -20,7 +21,8 @@ const Search = () => {
     return (
         <div>
             <InputText placeholder="Search Anything" className="my-3" onChange={handleChange} />
-            <InputText placeholder='hello' />
+          
+            
         </div>
     );
 };

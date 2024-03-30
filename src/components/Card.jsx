@@ -1,5 +1,5 @@
 import React from "react";
-import { Fieldset } from "primereact/fieldset";
+import { Fieldset } from "./fieldset";
 import Image from "next/image";
 
 

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Sidebar } from 'primereact/sidebar';
-import { Button } from 'primereact/button';
+import { Button } from './button';
 import { BsFilterRight } from "react-icons/bs";
-import { Divider } from 'primereact/divider';
+import { Divider } from './divider';
 import { useStudentContext } from "@/context/studentContext";
 import Filters from './Filters';
 
